@@ -15,7 +15,14 @@ int main() {
       float pib = 76.700000000;
 
   // Área para entrada de dados
-
+     scanf("Estado %c\n", estado);
+     scanf("Código: %s\n", &codigo);
+     scanf("Nome da cidade: %s\n", &cidade);
+     scanf("População: %d\n", populacao);
+     scanf("Área: %.2f km² \n", area);
+     scanf("PIB: %.3f bilhões de reais \n", pib);
+     scanf("Números de pontos turísticos: %d\n", pontosturisticos);
+     
   // Área para exibição dos dados da cidade
 
 return 0;
